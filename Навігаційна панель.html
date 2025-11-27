@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Створення навігаційної панелі</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #992266;
+        color: white;
+        padding: 20px;
+    }
+    .nav-linkes-item {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+    }
+    .nav-linkes-item:hover {
+        background-color: #992266;
+        border-radius: 5px;
+    }
+        
+</style>
+
+<body>
+    <nav class="nav">
+        <div class="logo">Логотип</div>
+        <div class="nav-links">
+            <a class="nav-linkes-item" href="#">Головна</a> 
+            <a class="nav-linkes-item" href="#">Про нас</a>
+            <a class="nav-linkes-item" href="#">Послуги</a>
+            <a class="nav-linkes-item" href="#">Контакти</a>
+        </div>
+    </nav>
+</body>
